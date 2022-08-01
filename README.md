@@ -3,7 +3,7 @@
 </h1>
 
 <h3 align="center">
-  Teste para desenvolvedor front-end na Appstorm.
+  Teste para desenvolvedor Front-end na Appstorm.
 </h3>
 
 <p align="center">
