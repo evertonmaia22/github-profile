@@ -1,70 +1,104 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <img alt="Logo" src="https://www.appstorm.com.br/images/logo_white.png" width="300px">
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h3 align="center">
+  Teste para desenvolvedor front-end na Appstorm.
+</h3>
 
-## Available Scripts
+<p align="center">
+  <a href="#about">Sobre o desafio</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#technologies">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#started">Preparando ambiente</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#use">Utilizando</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#images">Imagens</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+</p>
 
-In the project directory, you can run:
+<div id="about"></div>
 
-### `yarn start`
+## 💇🏻‍♂️ Sobre o desafio
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+O desafio consiste em:
+- Exibir os repositórios do perfil procurado.
+- Ver detalhes de perfil e dos projetos de um desenvolvedor na plataforma GitHub.
+- Favoritar o perfil
+<div id="technologies"></div>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tecnologias
 
-### `yarn test`
+Tecnologias que utilizei para desenvolver o teste:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [ReactJS](https://pt-br.reactjs.org/)
+- [Javascript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [Styled-Components](https://styled-components.com/)
+- [Eslint](https://eslint.org/)
+- [Axios](https://axios-http.com/ptbr/docs/intro)
+- [React-Router-Dom](https://reactrouter.com/)
 
-### `yarn build`
+<div id="started"></div>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 💻 Preparando o ambiente
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Requisitos
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en/)
+- [Yarn](https://classic.yarnpkg.com/) ou [npm](https://www.npmjs.com/)
 
-### `yarn eject`
+**Clone o projeto e acesse a pasta**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+$ git clone https://github.com/evertonmaia22/github-profile && cd github-profile
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+**Execute os comandos abaixo para instalar as dependências**
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+# Instala as dependências
+$ yarn
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Quando for concluído, execute:
+$ yarn start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Pronto! Agora você já pode acessar o projeto no endereço (http://localhost.com:3000) do seu browser.
+```
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<div id="use"></div>
 
-### Analyzing the Bundle Size
+## 👨🏻‍💻 Utilizando
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### O uso do projeto, consiste em:
 
-### Making a Progressive Web App
+- Exibir os repositórios do perfil procurado.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+- Ver detalhes de perfil e dos projetos de um desenvolvedor na plataforma GitHub.
 
-### Advanced Configuration
+- Favoritar o perfil
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+<div id="images"></div>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👨🏻‍💻 Imagens da aplicação em produção:
 
-### `yarn build` fails to minify
+### Home
+![githubProfile](https://user-images.githubusercontent.com/101665823/182206239-cd0d21fc-368d-45b6-931a-12231641648c.png)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Perfil
+Pesquise o perfil do github e vizualize seus repositórios!
+
+![profileSearch](https://user-images.githubusercontent.com/101665823/182206840-944ed438-8330-4324-a96f-66a21adc7ac0.png) ![repoGithub](https://user-images.githubusercontent.com/101665823/182207184-8c8ae3a9-b43e-4efb-be1e-ce1efb84f4d2.png)
+ 
+
+### Favorito
+Favorite o Perfil
+
+![favoriteProfile](https://user-images.githubusercontent.com/101665823/182207507-5b8c1692-7c0d-42db-8c49-854ed167b9a2.png)
+
+
+##
+Made by Everton Maia 👋 &nbsp;[See my linkedin](https://www.linkedin.com/in/everton-maia-566689235/)
